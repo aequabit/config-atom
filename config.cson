@@ -1,0 +1,73 @@
+"*":
+  "Remote-FTP": {}
+  "atom-beautify":
+    c:
+      configPath: "C:\\Uncrustify\\cfg\\defaults.cfg"
+    css: {}
+    general:
+      _analyticsUserId: "2a86fa2f-6963-42d0-bffe-000fcc1bda77"
+    html:
+      indent_size: 2
+    js:
+      brace_style: "collapse-preserve-inline"
+      disabled: true
+    jsx:
+      default_beautifier: "JS Beautify"
+      disabled: true
+    php:
+      cs_fixer_path: "php-cs-fixer"
+      default_beautifier: "hh_format"
+      phpcbf_path: "phpcbf"
+      standard: "PSR2"
+    twig:
+      indent_size: 2
+  "atom-ternjs": {}
+  core:
+    customFileTypes:
+      "source.js": [
+        "jsx"
+      ]
+    disabledPackages: [
+      "activate-power-mode"
+      "jslint"
+      "language-babel"
+      "react"
+    ]
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "no"
+  editor: {}
+  "exception-reporting":
+    userId: "f48435bb-7b9f-a71a-0b2e-8fbd744914e9"
+  jslint:
+    jslintVersion: "es6"
+    validateOnChange: true
+  "linter-eslint":
+    eslintrcPath: "H:\\_Coding\\_configs\\.eslintrc.json"
+    globalNodePath: "C:\\Users\\aequabit\\AppData\\Roaming\\npm"
+    useGlobalEslint: true
+  "linter-ui-default":
+    panelHeight: 69
+    showPanel: true
+  "markdown-preview":
+    useGitHubStyle: true
+  minimap:
+    plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  "php-cs-fixer":
+    allowRisky: false
+    executablePath: "C:\\Users\\aequabit\\AppData\\Roaming\\Composer\\vendor\\bin\\php-cs-fixer"
+    executeOnSave: false
+    phpExecutablePath: ""
+    rules: "@Symfony,-blank_line_before_return"
+  "prettier-atom":
+    prettierOptions:
+      jsxBracketSameLine: true
+      singleQuote: true
+    useEslint: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
