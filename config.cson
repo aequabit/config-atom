@@ -63,6 +63,8 @@
     phpExecutablePath: ""
     rules: "@Symfony,-blank_line_before_return"
   "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
     prettierOptions:
       jsxBracketSameLine: true
       singleQuote: true

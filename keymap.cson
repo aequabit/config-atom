@@ -36,11 +36,11 @@
   'shift-tab': 'emmet:expand-abbreviation-with-tab'
   'ctrl-alt-d': 'atom-beautify:beautify-editor'
 
-"atom-text-editor[data-grammar='source js']":
+'atom-text-editor[data-grammar="source js"]':
   'ctrl-alt-d': 'prettier:format'
 
 'atom-text-editor[data-grammar="text html php"]:not([mini])':
-    'ctrl-alt-d': 'php-cs-fixer:fix'
+  'ctrl-alt-d': 'php-cs-fixer:fix'
 
 '.platform-win32 .editor':
   'ctrl-alt-[': 'unset!'
