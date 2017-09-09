@@ -28,13 +28,16 @@
         "jsx"
       ]
     disabledPackages: [
-      "activate-power-mode"
-      "jslint"
       "language-babel"
       "react"
     ]
     packagesWithKeymapsDisabled: []
     telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "monokai-solarized-dark"
+    ]
+  docblockr: {}
   editor: {}
   "exception-reporting":
     userId: "f48435bb-7b9f-a71a-0b2e-8fbd744914e9"
@@ -45,6 +48,8 @@
     eslintrcPath: "H:\\_Coding\\_configs\\.eslintrc.json"
     globalNodePath: "C:\\Users\\aequabit\\AppData\\Roaming\\npm"
     useGlobalEslint: true
+  "linter-flow":
+    enableAll: true
   "linter-ui-default":
     panelHeight: 69
     showPanel: true
